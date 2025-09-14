@@ -1,5 +1,5 @@
 body {
-font-family:'Segoe UI', sans-serif
+font-family:'Segoe UI', sans-serif;
 margin: 0;
 padding: 0;
 color: #333;
@@ -29,14 +29,13 @@ color: #333;
     .nav-wrapper {
         display:flex;
         align-items: center;
-        gap: 30px;
-        }
-
-        
+        gap: 40px;
+        }     
 
 .main-nav { 
 display: flex;
 align-items: center;
+justify-content: flex-end;
 gap: 30px;
  }
 
@@ -44,7 +43,7 @@ gap: 30px;
     display: flex;
     list-style: none;
     gap: 20px;
-    margin: 0;
+    margin-left: 300px;
     padding: 0;
     }
 
@@ -59,16 +58,21 @@ color: orange;
 }
 .auth-buttons {
 display: flex;
-gap: 10px;
+gap: 15px;
 align-items: center;
+margin-left: auto;
+}
+
+.logo img {
+height: 40px;
 }
 .btn-link {
     border: 1px solid #2f80ed;
-    padding: 8px 16 px;
+    padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
     color: #333;
-    background-color: #fff
+    background-color: #fff;
     font-weight:600;
     }
 .btn-small {
@@ -196,7 +200,7 @@ flex: 1 1 500px;
 .image-column {
 flex: 1 1 400px;
 display: flex;
-justify.content: center;
+justify-content: center;
 }
 
 .image-column img {
@@ -286,14 +290,14 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 gap: 40px;
-padding 40px 0;
+padding: 40px 0;
 }
 
 .marketer-section .text {
 flex: 1;
 max-width: 50%;
-font-family: sans-serif
-color: #333
+font-family: sans-serif;
+color: #333;
 }
 
 .marketer-section .image {
@@ -312,34 +316,32 @@ border-radius: 12px;
 background-color: white;
 padding: 40px 0;
 font-family: sans-serif;
-color: #333
+color: #333;
 }
 
 .footer-content {
 display: flex;
+align-items: flex-start;
+justify-content: space-between;
+gap: 60px;
+flex-wrap: wrap;
 max-width: 1200px;
 margin: 0 auto;
-justify-content: space-between;
-gap: 40px;
 }
-
 .footer-logo  {
-display: flex;
-align-items: center;
-gap: 10px;
-font-weight: 700;
-color: #003366;
-font-size: 18px;
+width: 250px;
+height: auto;
 }
 
 .footer-logo img {
-width: 24px;
-height: 24px;
+width: 100px;
+height: 100px;
 }
 
 .footer-links {
 display: flex;
 gap: 60px;
+flex: 2 1 400px;
 }
 
 .footer-list {
@@ -354,7 +356,7 @@ margin-bottom: 10px;
 
 .footer-list li a {
 text-decoration: none;
-color: #555;
+color: #333;
 font-size: 14px;
 }
 
@@ -364,21 +366,25 @@ color: orange;
 
 .footer-signup {
 display: flex;
-align-items: center;
+flex-direction: column;
+align-items: flex-start;
 gap: 10px;
+flex: 1 1 200px;
 }
 
 .btn-signup {
-background-color: oranage;
+background-color: #f9a825
 border: none;
 color: white;
 padding: 8px 16px;
 font-weight: 600;
 border-radius: 4px;
+cursor: pointer;
+font-size: 14px;
 }
 
-.btn-signup:hover {
-background-color: #e07b00
+.btn-signup {
+background-color: #f57f17;
 }
 
 
