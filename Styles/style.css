@@ -123,7 +123,7 @@ font-weight: 600;
      }
     .watch-video {
     margin-left: 16px;
-    color: #f9a825
+    color: #f9a825;
     font-weight: 600;
     text-decoration: none;
     display: inline-flex;
@@ -307,7 +307,7 @@ display: flex;
 justify-content: center;
 }
 .marketer-section .image img  {
-width: 100%
+width: 100%;
 height: auto;
 border-radius: 12px;
 }
@@ -373,7 +373,7 @@ flex: 1 1 200px;
 }
 
 .btn-signup {
-background-color: #f9a825
+background-color: #f9a825;
 border: none;
 color: white;
 padding: 8px 16px;
@@ -387,8 +387,25 @@ font-size: 14px;
 background-color: #f57f17;
 }
 
-
-
+.btn:hover,
+.btn-small:hover, 
+.tools-button-wrapper .btn:hover {
+    background-color: #e68100;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.2s ease;
+    }
+.btn-link:hover {
+    background-color: #2f80ed;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ }
+ .btn-signup:hover  {
+    background-color: #e68100;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     }
 
 
 
